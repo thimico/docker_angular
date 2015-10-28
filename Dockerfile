@@ -1,4 +1,4 @@
-FROM node:0.10.40
+FROM node
 
 RUN mkdir /src
 WORKDIR /src
