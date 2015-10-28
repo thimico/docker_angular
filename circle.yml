@@ -10,7 +10,6 @@ deployment:
   dockerhub:
      branch: master
      commands:
-       - docker pull node
-       - $DOCKERTRIGGER
+        - $DOCKERTRIGGER
 
 
