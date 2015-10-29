@@ -21,7 +21,7 @@ ADD html html
 #ADD models models
 #ADD node_modules node_modules
 ADD test test
-ADD circle.yml package.json app.js
+ADD circle.yml package.json app.js ./
 
 EXPOSE 3033
 
