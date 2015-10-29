@@ -11,7 +11,7 @@ RUN npm install -g gulp
 
 
 ADD html html
-ADD models models
+#ADD models models
 ADD node_modules node_modules
 ADD test test
 ADD circle.yml package.json app.js
