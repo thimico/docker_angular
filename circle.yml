@@ -14,7 +14,8 @@ deployment:
      branch: master
      commands:
          - mkdir ${CIRCLE_ARTIFACTS}/nodemod
-         - cp -R ./node_modules ${CIRCLE_ARTIFACTS}/nodemod/
+         - zip nodemodules.zip ./node_modules/
+         - cp -R ./nodemodules.zip ${CIRCLE_ARTIFACTS}/nodemod/
 #        - $DOCKERTRIGGR
 
          - ls $CIRCLE_ARTIFACTS
