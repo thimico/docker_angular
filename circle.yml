@@ -17,7 +17,6 @@ deployment:
          - cp -R ./* ${CIRCLE_ARTIFACTS}/nodemod/
 #        - $DOCKERTRIGGER
 
-   post:
-       - $ls 
-       - $ls $CIRCLE_ARTIFACTS
+         - $ls 
+         - $ls $CIRCLE_ARTIFACTS
 
