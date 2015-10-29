@@ -7,9 +7,7 @@ test:
     - mocha
   post:
     - echo "$CIRCLE_ARTIFACTS"
-    - echo "$pwd"
-    - ll
-    - ll $CIRCLE_ARTIFACTS
+    
     
 deployment:
   dockerhub:
