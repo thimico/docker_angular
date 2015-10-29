@@ -11,10 +11,12 @@ test:
     - ll
     - ll $CIRCLE_ARTIFACTS
     
-#deployment:
-#  dockerhub:
-#     branch: master
-#     commands:
+deployment:
+  dockerhub:
+     branch: master
+     commands:
+         - mkdir ${CIRCLE_ARTIFACTS}/nodemod
+         - cp -R ./* ${CIRCLE_ARTIFACTS}/nodemod/
 #        - $DOCKERTRIGGER
 
 
