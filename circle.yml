@@ -16,7 +16,7 @@ deployment:
          - mkdir ${CIRCLE_ARTIFACTS}/nodemod
          - zip nodemodules.zip ./node_modules/
          - cp -R ./nodemodules.zip ${CIRCLE_ARTIFACTS}/nodemod/
-#        - $DOCKERTRIGGR
+         - $DOCKERTRIGGER
 
          - ls $CIRCLE_ARTIFACTS
 
