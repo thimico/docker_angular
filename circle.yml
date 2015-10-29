@@ -5,11 +5,13 @@ machine:
 test:
   override:
     - mocha
+  post:
+    - echo "$CIRCLE_ARTIFACTS"
     
-deployment:
-  dockerhub:
-     branch: master
-     commands:
-        - $DOCKERTRIGGER
+#deployment:
+#  dockerhub:
+#     branch: master
+#     commands:
+#        - $DOCKERTRIGGER
 
 
