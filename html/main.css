@@ -1,6 +1,9 @@
 <style type="text/css">
 /* Reset body padding and margins */
 body { margin:0; padding:0; }
+
+/* green color = #ff0000 */
+/* blue color = #8AC007 */
  
 /* Make Header Sticky */
 #header_container { background:#8AC007;  height:50px; left:0; position:fixed; width:100%; top:0; }
