@@ -13,7 +13,7 @@ WORKDIR /src
 RUN npm install -g grunt-cli
 RUN npm install -g gulp-cli
 RUN npm install gulp
-RUN npm install grunt
+#RUN npm install grunt
 RUN npm install -g gulp
 
 
