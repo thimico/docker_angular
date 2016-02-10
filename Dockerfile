@@ -26,5 +26,5 @@ RUN npm install
 
 CMD ["node","app.js"]
 
-EXPOSE 3033
+EXPOSE 3010
 
