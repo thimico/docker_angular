@@ -11,11 +11,11 @@ WORKDIR /src
 #RUN ls -a /node_modules
 
 
-RUN npm install -g grunt-cli
-RUN npm install -g gulp-cli
-RUN npm install gulp
+#RUN npm install -g grunt-cli
+#RUN npm install -g gulp-cli
+#RUN npm install gulp
 #RUN npm install grunt
-RUN npm install -g gulp
+#RUN npm install -g gulp
 
 
 ADD html html
