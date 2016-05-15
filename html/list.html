@@ -1,14 +1,14 @@
 
       <div class="smart-green" >  
         <div  ng-controller="AppCtrl"> 
-		<h1>List of Employees</h1>
+		<h1>Listagem de Empregados</h1>
             
             <table>  <!--class is used to access the class of bootstrap -->
                 <thead>
                     <tr>
-                        <th>code</th>
-                        <th>name</th>
-                        <th>city</th>
+                        <th>Código</th>
+                        <th>Nome</th>
+                        <th>Cidade</th>
                          <tr ng-repeat="emp in employee1"> <!--used to access the contactlist object -->
                        <td> {{emp.code}}</td>
                         <td>{{emp.name}}</td>
